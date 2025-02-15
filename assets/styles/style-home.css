@@ -195,18 +195,18 @@ nav a {
 }
 .box:hover {
     background: linear-gradient(to left , #1bbb36, #7ab17c);
-    color: green;
+    color: rgb(245, 252, 245);
     font-weight: bolder;
     border: 2px solid #218b25;
 
 }
 .section2 {
-    background: linear-gradient(to left , #0e5a1b, #6bbe6e);
+    background: linear-gradient(to left , #c6ccc7, #6bbe6e);
     padding: 20px;
     position: relative;
 }
 .section3 {
-    background: linear-gradient(to left , #5bca6e, #07e40f);
+    background: linear-gradient(to left , #eaeceb, #6ac56d);
     padding: 20px;
     position: relative;
     display: flex;
@@ -228,13 +228,13 @@ nav a {
 }
 .step:hover {
     background: linear-gradient(to left , #1bbb36, #7ab17c);
-    color: green;
+    color: rgb(210, 219, 210);
     font-weight: bolder;
     border: 2px solid #218b25;
 
 }
 .section4 {
-    background: linear-gradient(to left , #12bd2f, #4e9c50);
+    background: linear-gradient(to left , #ccd4ce, #a8ada8);
     padding: 20px;
     position: relative;
     display: flex;
@@ -260,7 +260,7 @@ nav a {
 }
 .testimonial:hover {
     background: linear-gradient(to left , #1bbb36, #7ab17c);
-    color: green;
+    color: rgb(221, 230, 221);
     font-weight: bolder;
     border: 2px solid #218b25;
 
@@ -270,25 +270,25 @@ footer {
     color: rgb(95, 231, 16);
     text-align: center;
     /* position: fixed; */
-    width: 100%;
+    /* width: 100%; */
     bottom: 0;
     z-index: 2;
     font-size: small;
     padding: 10px;
 }
-footer > div {
+.footer > div {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: 10px;
 }
-footer > div > a {
+.footer > div > a {
     color: #218b25;
     text-decoration: none;
 }
-footer > div > a:hover {
+.footer > div > a:hover {
     color: white;
     background-color: #218b25;
     padding: 5px 10px;
@@ -310,7 +310,7 @@ footer > div > a:hover {
     /* font-size: larger; */
 }
 .about{
-    background: linear-gradient(to left , #133619, #b6e6b8f3);
+    background: linear-gradient(to left , #fafcfa, #b6e6b8f3);
     padding: 20px;
 }
 .about-us:hover {
@@ -321,7 +321,7 @@ footer > div > a:hover {
 }
 
 .section5 {
-    background: linear-gradient(to left , #61d875, #6bbe6e);
+    background: linear-gradient(to left , #abb8ad, #f6f7f6);
     padding: 10px;
     position: relative;
     display: flex;
