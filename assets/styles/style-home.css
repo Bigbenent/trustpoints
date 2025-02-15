@@ -373,12 +373,12 @@ footer {
     opacity: 0.9;
   }
 
-  .cube-face--front  { transform: rotateY(0deg) translateZ(100px); background: url('../images/fb.png'); }
-  .cube-face--back   { transform: rotateY(180deg) translateZ(100px); background: url('../images/instagram.jpg'); }
-  .cube-face--left   { transform: rotateY(-90deg) translateZ(100px); background: url('../images/snapchat.png'); }
-  .cube-face--right  { transform: rotateY(90deg) translateZ(100px); background: url('../images/twitter.png'); }
-  .cube-face--top    { transform: rotateX(90deg) translateZ(100px); background: url('../images/youtube.png'); }
-  .cube-face--bottom { transform: rotateX(-90deg) translateZ(100px); background: url('../images/tiktok.png'); }
+  .cube-face--front  { transform: rotateY(0deg) translateZ(100px); background: url('../images/fb.png'); background-size: contain; }
+  .cube-face--back   { transform: rotateY(180deg) translateZ(100px); background: url('../images/instagram.jpg'); background-size: contain;}
+  .cube-face--left   { transform: rotateY(-90deg) translateZ(100px); background: url('../images/snapchat.png'); background-size: contain;}
+  .cube-face--right  { transform: rotateY(90deg) translateZ(100px); background: url('../images/twitter.png'); background-size: contain;}
+  .cube-face--top    { transform: rotateX(90deg) translateZ(100px); background: url('../images/youtube.png'); background-size: contain;}
+  .cube-face--bottom { transform: rotateX(-90deg) translateZ(100px); background: url('../images/tiktok.png'); background-size: contain;}
 
   @keyframes spin {
     from {
