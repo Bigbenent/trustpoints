@@ -91,7 +91,7 @@ nav a {
     border-bottom: 2px solid #175f1a;
 }
 .register:hover {
-    background-color: #126615;
+    background-color: #12661594;
     color: white;
     padding: 5px 10px;
     border-radius: 10px;
@@ -109,7 +109,7 @@ nav a {
     text-decoration: none;
 }
 .login:hover {
-    background-color: #218b25;
+    background-color: #0e5210;
     color: white;
     padding: 5px 10px;
     border-radius: 10px;
